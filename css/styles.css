@@ -13,6 +13,12 @@ body {
   color: var(--primary-text-color);
 }
 
+/* Для логических заголовков */
+.visually-hidden {
+  visibility: hidden;
+}
+
+/* Хеддер */
 /* Логотип */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -20,7 +26,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
 
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-decoration: none;
 
   color: #000000;
@@ -98,9 +104,8 @@ body {
   line-height: 1.71;
 
   letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
 }
+
 /* Чем мы занимаемся */
 .business-title {
   font-size: 36px;
@@ -123,7 +128,6 @@ body {
 }
 
 .team-card h3 {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -138,12 +142,9 @@ body {
   line-height: 1.19;
 
   letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
 }
 
 /* Футер */
-
 .address {
   line-height: 1.71;
 
@@ -161,4 +162,36 @@ body {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   background-color: violet;
+}
+
+/* Страница Портфолио */
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
+/* Галерея проектов */
+.project {
+  text-decoration: none;
+}
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
 }
